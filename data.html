@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1>{{country1}} statistics </h1>
+{% for i in range(0,4) %}
+<p> {{titleOrder[i]}}: {{country1List[i]}}</p>
+{% endfor %}
+<h1>{{country2}} statistics </h1>
+{% for i in range(0,4) %}
+<p> {{titleOrder[i]}}: {{country2List[i]}}</p>
+{% endfor %}
+
+<form action = "/visuals">
+<input type="submit" value="continue">
+</form>
+
+</body>
+</html>
+ 
